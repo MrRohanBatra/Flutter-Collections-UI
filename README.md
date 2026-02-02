@@ -36,6 +36,8 @@ flutter_collections_ui/
 ├── lib/
 │   └── main.dart              # Complete application code
 │
+├── screenshots/
+│   └──                        # screenshots
 ├── pubspec.yaml               # Project dependencies
 ├── README.md                  # This file
 └── android/                   # Android platform files
@@ -106,20 +108,19 @@ flutter build ios
 flutter build web
 ```
 
+
 ### 📸 Screenshots
 
-### Collapsed State
-![Collapsed Collections](screenshots/collapsed.png)
-*Collections in their default collapsed state*
+<div align="center">
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <div style="text-align: center;">
+         <img src="screenshots/collapsed.png" alt="Collapsed Collections" width="250"/>
+         <img src="screenshots/expanded.png" alt="Expanded Collection" width="250"/>
+        <img src="screenshots/multi 2.png" alt="Multiple Collections Expanded" width="250"/>
+    </div>
+  </div>
+</div>
 
-### Expanded State
-![Expanded Collection](screenshots/expanded.png)
-*A collection expanded to show the image gallery with horizontal scrolling*
-
-### Multiple Expanded
-![Multiple Collections Expanded](screenshots/multi%201.png)
-![Multiple Collections Expanded](screenshots/multi%202.png)
-*Multiple collections can be expanded simultaneously*
 
 ## 🛠️ Technical Implementation
 
