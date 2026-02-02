@@ -106,6 +106,21 @@ flutter build ios
 flutter build web
 ```
 
+### 📸 Screenshots
+
+### Collapsed State
+![Collapsed Collections](screenshots/collapsed.png)
+*Collections in their default collapsed state*
+
+### Expanded State
+![Expanded Collection](screenshots/expanded.png)
+*A collection expanded to show the image gallery with horizontal scrolling*
+
+### Multiple Expanded
+![Multiple Collections Expanded](screenshots/multi%201.png)
+![Multiple Collections Expanded](screenshots/multi%202.png)
+*Multiple collections can be expanded simultaneously*
+
 ## 🛠️ Technical Implementation
 
 ### Stateful Widget Pattern
@@ -172,31 +187,6 @@ For Android, internet permission is already configured in `AndroidManifest.xml` 
 - ✅ macOS
 - ✅ Linux
 
-## 🧪 Testing
-
-Run tests with:
-```bash
-flutter test
-```
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-Created as a demonstration of Flutter UI development best practices.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 📞 Support
-
-If you encounter any issues:
-1. Ensure Flutter is properly installed: `flutter doctor`
-2. Clear build cache: `flutter clean && flutter pub get`
-3. Check for Flutter/Dart version compatibility
 
 ---
 
