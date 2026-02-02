@@ -37,7 +37,7 @@ flutter_collections_ui/
 │   └── main.dart              # Complete application code
 │
 ├── screenshots/
-│   └──                        # screenshots
+│   └── *                       # screenshots
 ├── pubspec.yaml               # Project dependencies
 ├── README.md                  # This file
 └── android/                   # Android platform files
